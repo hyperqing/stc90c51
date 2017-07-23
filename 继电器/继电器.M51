@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        07/23/2017  19:03:15  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        07/23/2017  19:12:25  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
@@ -59,19 +59,19 @@ SYMBOL TABLE OF MODULE:  ¼ÌµçÆ÷ (MAIN)
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   D:00C8H         PUBLIC        T2CON
-BL51 BANKED LINKER/LOCATER V6.22                                                      07/23/2017  19:03:15  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22                                                      07/23/2017  19:12:25  PAGE 2
 
 
   D:00D0H         PUBLIC        PSW
   B:0080H.0       PUBLIC        K1
   -------         PROC          MAIN
-  C:080CH         LINE#         9
   C:080CH         LINE#         10
-  C:080FH         LINE#         11
-  C:0811H         LINE#         12
-  C:0812H         LINE#         13
-  C:0814H         LINE#         14
+  C:080CH         LINE#         11
+  C:080FH         LINE#         12
+  C:0811H         LINE#         13
+  C:0812H         LINE#         14
   C:0814H         LINE#         15
+  C:0814H         LINE#         16
   -------         ENDPROC       MAIN
   -------         ENDMOD        MAIN
 

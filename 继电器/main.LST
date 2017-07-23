@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  07/23/2017 19:03:15 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  07/23/2017 19:12:24 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -15,13 +15,14 @@ line level    source
    6          sbit K1 = P0 ^0;
    7          sbit RELAY = P1 ^4;
    8          
-   9          void main() {
-  10   1          if (K1 == 0) {
-  11   2              RELAY = 0;
-  12   2          } else {
-  13   2              RELAY = 1;
-  14   2          }
-  15   1      }
+   9          // 继电器
+  10          void main() {
+  11   1          if (K1 == 0) {
+  12   2              RELAY = 0;
+  13   2          } else {
+  14   2              RELAY = 1;
+  15   2          }
+  16   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
