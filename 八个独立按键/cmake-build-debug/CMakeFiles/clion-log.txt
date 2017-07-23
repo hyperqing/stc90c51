@@ -1,0 +1,2 @@
+CMakeLists.txt not found in E:\stc90c516rd\八个独立按键
+Environment (MinGW/Cygwin) is not selected

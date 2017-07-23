@@ -72,4 +72,7 @@ unsigned char keydown() {
 P0接J12，P0.0对应J12.H。
 P1接JP5，P1.0对应JP5.K8。
 
+## 继电器
+
+P0接键盘JP5，P0.0对应K1。P1.4接继电器J2。
 
