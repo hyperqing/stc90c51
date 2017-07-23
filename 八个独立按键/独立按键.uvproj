@@ -43,12 +43,12 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>跑马灯</OutputName>
+          <OutputName>独立按键</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>0</BrowseInformation>
+          <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\</ListingPath>
           <HexFormatSelection>0</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -251,7 +251,7 @@
                 <Size>0x0</Size>
               </Ocr3>
               <IRO>
-                <Type>1</Type>
+                <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </IRO>

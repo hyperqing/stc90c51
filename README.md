@@ -32,3 +32,37 @@ D11 D12 D13 D14 D15 D16 D17 D18
 ## 跑马灯
 
 同上
+
+## 键盘
+
+### 键盘检测
+
+```c
+#define KEY_BOARD P1
+/**
+ * 返回按下的字节码
+ * @return
+ */
+unsigned char keydown() {
+    // 检测两次,未按键盘都是高电平0xff
+    unsigned char keyvalue = 0xff;
+    if (KEY_BOARD != 0xff) {
+        delay10ms();
+        if (KEY_BOARD != 0xff) {
+            keyvalue = KEY_BOARD;
+        }
+    }
+    delay10ms();
+    return keyvalue;
+}
+```
+
+### 八个独立按键
+
+未按键时电路未通，按键一侧与端口等电势。如果按钮的另一侧是接地的，则按下按钮后将拉低电平。
+
+使用P0、P1端口。
+P0接J12，P0.0对应J12.H。
+P1接JP5，P1.0对应JP5.K8。
+
+
