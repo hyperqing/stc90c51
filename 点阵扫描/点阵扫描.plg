@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\stc90c516rd\µ„’Û…®√Ë\µ„’Û…®√Ë.uvproj
+Project File Date:  07/23/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(24): error C141: syntax error near 'void'
+MAIN.C(24): error C141: syntax error near '{'
+MAIN.C(33): error C231: 'i': redefinition
+MAIN.C(34): error C141: syntax error near 'while'
+MAIN.C(34): error C141: syntax error near '1'
+MAIN.C(36): error C141: syntax error near '=', expected ')'
+MAIN.C(36): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=95.0 xdata=0 code=732
+creating hex file from "µ„’Û…®√Ë"...
+"µ„’Û…®√Ë" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=95.0 xdata=0 code=732
+creating hex file from "µ„’Û…®√Ë"...
+"µ„’Û…®√Ë" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=95.0 xdata=0 code=732
+creating hex file from "µ„’Û…®√Ë"...
+"µ„’Û…®√Ë" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=95.0 xdata=0 code=732
+creating hex file from "µ„’Û…®√Ë"...
+"µ„’Û…®√Ë" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY50MS?MAIN
+Program Size: data=95.0 xdata=0 code=732
+creating hex file from "µ„’Û…®√Ë"...
+"µ„’Û…®√Ë" - 0 Error(s), 1 Warning(s).
